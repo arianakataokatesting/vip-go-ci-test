@@ -13,8 +13,10 @@ class MyTestClass
         $functionsCookies = $_COOKIE;
 
         $functionsPost = $_POST;
-        var_dump($functionsPost);
+
+        var_dump($functionsPost );
 
         session_write_close();
     }
 }
+
